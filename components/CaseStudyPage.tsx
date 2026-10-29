@@ -65,9 +65,9 @@ const CaseStudyPage = async ({ params }: PageProps) => {
               </div>
               <Separator className="my-6" />
               <div className="w-full flex max-[768px]:flex-col max-[768px]:gap-4">
-                  <div className="w-[40%] max-[380px]:w-full">
+                  <div className="w-[40%] max-[768px]:w-full">
                         <h3 className="mb-4 capitalize">Key features</h3>
-                        <div className="flex flex-wrap gap-2 pr-5 border-r border-r-gray-300 max-[380px]:border-r-0">
+                        <div className="flex flex-wrap gap-2 pr-5 border-r border-r-gray-300 max-[768px]:border-r-0">
                         {study.keyFeatures.map((feature) => (
                             <Badge variant="outline" className="bg-white border-[#28D8A9] capitalize text-black py-4 rounded-sm! max-[768px]:text-[10px]" key={feature}>{feature}</Badge>
                         ))}
