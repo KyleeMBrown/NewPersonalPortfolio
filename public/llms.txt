@@ -1,0 +1,43 @@
+# Kylee Brown — Software Engineer
+
+> Personal portfolio of Kylee Brown, a software engineer specializing in modern web development and full-stack application development.
+
+## About
+
+Kylee Brown is a software engineer focused on building modern, scalable web applications and solving real-world problems through software.
+
+## Technical Skills
+
+- Languages: TypeScript, JavaScript, Python, Java, C++, SQL
+- Frameworks: Next.js, React, Express.js, Tailwind CSS
+- Databases: PostgreSQL, MySQL, Supabase
+- Cloud: Vercel
+- Tools: Git, GitHub, VS Code, Postman
+- APIs: REST APIs, OAuth, Supabase Auth
+
+## Featured Projects
+
+### KB's Kustomz V2
+Production-ready auto body shop website and custom CMS.
+- Technologies: Next.js, TypeScript, Supabase, PostgreSQL, Vercel
+- GitHub: https://github.com/KyleeMBrown/KBsKustomz_NewSite
+- Live: https://kbs-kustomz.vercel.app
+
+### Jarvis Discord Bot
+Python-powered Discord bot integrating the OpenAI API for AI-driven interactions.
+- Technologies: Python, OpenAI API, Discord API
+
+## Professional Focus
+
+- Software Engineering
+- Full-Stack Development
+- Web Application Development
+- Cloud Technologies
+- API Integration
+- Database Design
+
+## Links
+
+- Portfolio: https://kyleebrown.vercel.app
+- GitHub: https://github.com/KyleeMBrown
+- LinkedIn: https://www.linkedin.com/in/kylee-brown-7167b9274/

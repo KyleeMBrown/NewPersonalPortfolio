@@ -23,9 +23,9 @@ const CaseStudyPage = async ({ params }: PageProps) => {
         author: {
             "@type": "Person",
             name: "Kylee Brown",
-            url: "https://yourdomain.com",
+            url: "https://kyleebrown.vercel.app",
         },
-        url: `https://yourdomain.com/projects/${slug}`,
+        url: `https://kyleebrown.vercel.app/case-study/${slug}`,
     };
 
 
