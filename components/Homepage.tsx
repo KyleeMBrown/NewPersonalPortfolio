@@ -16,7 +16,7 @@ const Homepage = () => {
                   
                   <div className="flex gap-[1em] ">
                     <Link href="/#work"><Button className="text-[1em] px-4 py-4 bg-white! border-[#28D8A9]" variant='outline'>View Work</Button></Link>
-                    <Link href="/Resume.pdf" download="KyleeBrownResume.pdf">
+                    <Link href="/KyleeBrownResume.pdf" download="KyleeBrownResume.pdf">
                       <Button className="px-4 py-4 text-[1em]">
                         <ArrowDownToLine/>Download Resume
                       </Button>
