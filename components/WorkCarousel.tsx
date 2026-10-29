@@ -26,7 +26,7 @@ export function WorkCarousel() {
           {workData.map((work, index) => (
             <CarouselItem key={index} className="basis-1/2 pt-1 ">
               <div className="p-1 ">
-                    <Card className="h-[50vh]  max-[768px]:max-h-[38vh] max-[376px]:h-[54vh] max-[376px]:max-h-[54vh] relative overflow-hidden border-0 p-10 max-[768px]:p-6">
+                    <Card className="h-[50vh]  max-[768px]:max-h-[41vh] max-[376px]:h-[54vh] max-[376px]:max-h-[54vh] relative overflow-hidden border-0 p-10 max-[768px]:p-6">
                     <div className="flex justify-between">
                     <CardTitle className="text-[2.5em] max-[768px]:text-[1.5em] font-bold">{work.title}</CardTitle>
                     <Badge variant="default" className="text-white bg-[#28D8A9] max-[768px]:text-[10px] uppercase">{work.status}</Badge>
