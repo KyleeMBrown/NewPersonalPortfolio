@@ -1,0 +1,110 @@
+{
+  "kbs-kustomz": {
+    "title": "KB's Kustomz",
+    "description": "A modern business website and content management system built for an automotive body repair and painting business. The platform features a dynamic image gallery, editable business information, service pages, and a secure dashboard for managing website content.",
+    "role": "Full-Stack Developer",
+    "date": "Dec 2025 – Apr 2026",
+    "status": "Live",
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "PostgreSQL",
+      "Vercel"
+    ],
+    "problem": "The business needed a professional online presence to showcase its automotive repair and painting work. Managing website content and keeping project photos up to date needed to be straightforward without requiring code changes.",
+    "solution": "Designed and developed a responsive website with a database-backed image gallery and a secure content management dashboard. Integrated Supabase authentication and PostgreSQL for data management, Google OAuth for sign-in, and Vercel Blob for image storage.",
+    "keyFeatures": [
+      "Responsive business website",
+      "Dynamic automotive project gallery",
+      "Secure dashboard with Google OAuth",
+      "Image upload and content management",
+      "Drag-and-drop gallery ordering",
+      "Paginated gallery with nine images per page",
+      "Server-side data handling and cache revalidation",
+      "Role-based access controls and database row-level security"
+    ],
+    "technicalChallenges": [
+      {
+        "title": "Secure content management",
+        "description": "Implemented authenticated dashboard access and layered authorization using application-level role checks and Supabase Row Level Security to protect business content."
+      },
+      {
+        "title": "Image storage and gallery performance",
+        "description": "Integrated Vercel Blob for image storage and implemented pagination, ordered gallery content, and cache revalidation to keep updates consistent."
+      },
+      {
+        "title": "Maintainable gallery management",
+        "description": "Built database-backed image ordering and drag-and-drop controls so gallery content could be managed without manually editing source code."
+      }
+    ],
+    "outcomes": [
+      "Delivered a deployed website tailored to a real local business.",
+      "Made gallery and business content updates manageable through a dashboard.",
+      "Built reusable experience with authentication, database security, file storage, and deployment workflows."
+    ],
+    "lessonsLearned": [
+      "Designing authorization across the application and database layers",
+      "Managing cached data and revalidation in the Next.js App Router",
+      "Building full-stack features around a real client's workflow",
+      "Balancing maintainability, usability, and responsive design"
+    ],
+    "liveUrl": "https://kbs-kustomz.vercel.app/",
+    "githubUrl": "https://github.com/KyleeMBrown/KBsKustomz_NewSite",
+     "linkTitle": "Website"
+  },
+  "jarvis-bot": {
+    "title": "Jarvis Bot",
+    "description": "A Python-powered Discord bot that integrates the Google GenAI API to bring AI-driven conversational capabilities into a Discord server. The project explores API integration, event-driven bot development, and deploying a persistent application to a cloud-hosted environment.",
+    "role": "Software Developer",
+    "date": "May 2025 – May 2025",
+    "status": "Live",
+    "stack": [
+      "Python",
+      "Discord API",
+      "Google AI API",
+      "REST APIs",
+      "FadeHost Hosting"
+    ],
+    "problem": "Discord communities can benefit from an interactive assistant that responds to messages and provides AI-generated conversational support directly within their server.",
+    "solution": "Developed a Discord bot in Python that connects to the Goggle GenAI API, processes user interactions, and returns generated responses through Discord. The Bot is hosted on a cloud server via FadeHost.",
+    "keyFeatures": [
+      "Discord bot integration",
+      "AI-generated conversational responses",
+      "OpenAI API integration",
+      "Event-driven message handling",
+      "Python application development",
+      "Cloud deployment experimentation"
+    ],
+    "technicalChallenges": [
+      {
+        "title": "Third-party API integration",
+        "description": "Connected Discord interactions to the OpenAI API, coordinating incoming messages with external API requests and generated responses."
+      },
+      {
+        "title": "Application hosting",
+        "description": "Explored cloud hosting options to run the bot persistently beyond a local machine, including troubleshooting hosting availability."
+      },
+      {
+        "title": "Managing external dependencies",
+        "description": "Worked with third-party API credentials and service dependencies while developing an application that relies on external platforms."
+      }
+    ],
+    "outcomes": [
+      "Built a working project integrating Python, Discord, and generative AI.",
+      "Gained practical experience with API-driven application architecture.",
+      "Explored deployment and cloud hosting options for long-running applications."
+    ],
+    "lessonsLearned": [
+      "Integrating external APIs into an application workflow",
+      "Handling asynchronous interactions and external service dependencies",
+      "Deploying and maintaining applications outside a local environment",
+      "Understanding the operational challenges of persistent cloud workloads"
+    ],
+    "liveUrl": "https://discord.com/oauth2/authorize?client_id=1353878573861179402&permissions=1689934340028480&integration_type=0&scope=bot",
+    "githubUrl": "https://github.com/KyleeMBrown/DiscordBot",
+     "linkTitle": "Demo"
+  }
+}
