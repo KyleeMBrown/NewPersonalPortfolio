@@ -73,7 +73,7 @@ const CaseStudyPage = async ({ params }: PageProps) => {
                         ))}
                         </div>
                   </div>
-                  <div className="p-10 w-[60%] max-[768px]:w-full max-[768px]:p-2 max-[768px]:h-full h-[35vh] overflow-y-scroll">
+                  <div className="p-10 w-[60%] max-[768px]:w-full max-[768px]:p-2 max-[768px]:h-full h-[35vh] max-[768px]:overflow-y-auto  overflow-y-scroll">
                       <h2 className="text-[1.5em] uppercase font-bold">Overview</h2>
                       <br></br>
                       <p>{study.description}</p>
