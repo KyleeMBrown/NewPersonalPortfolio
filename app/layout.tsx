@@ -81,6 +81,31 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Kylee Brown",
+  url: "https://kyleebrown.vercel.app",
+  jobTitle: "Software Engineer",
+  description:
+  "Software engineer specializing in modern web development and full-stack applications.",
+  sameAs: [
+  "https://github.com/KyleeMBrown",
+  "https://www.linkedin.com/in/kylee-brown-7167b9274/",
+  ],
+  knowsAbout: [
+  "Software Engineering",
+  "Next.js",
+  "React",
+  "TypeScript",
+  "JavaScript",
+  "Python",
+  "PostgreSQL",
+  "Supabase",
+  "Full-Stack Web Development",
+  ],
+};
+
 export default function RootLayout({ children }:{children:ReactNode}) {
   return (
     <html
@@ -89,6 +114,12 @@ export default function RootLayout({ children }:{children:ReactNode}) {
     >
      
       <body className="min-h-full flex flex-col">  
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+        __html: JSON.stringify(jsonLd).replace(/</g, "\u003c"),
+        }}
+        />
           <Menu/>
         {children}
         <footer>

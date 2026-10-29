@@ -11,6 +11,7 @@ type PageProps = {
 }
 
 const CaseStudyPage = async ({ params }: PageProps) => {
+
     const { slug } = await params
     const study = caseStudies[slug as keyof typeof caseStudies];
 
