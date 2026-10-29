@@ -1,0 +1,25 @@
+
+[
+  {
+    "title": "KB's Kustomz",
+    "slug":"kbs-kustomz",
+    "date": "Dec 2025 – Apr 2026",
+    "stack": "Business website · Next.js · Supabase",
+    "status": "complete",
+    "github_link": "https://github.com/KyleeMBrown/KBsKustomz_NewSite",
+    "link": "https://kbs-kustomz.vercel.app/",
+    "linkTitle": "Website",
+    "description": "KB's Kustomz is a website built for an automotive body shop specializing in vehicle bodywork and painting. The project focused on creating a professional online presence where prospective customers can learn about the business, explore its services, and view examples of its work."
+  },
+  {
+    "title": "Jarvis Discord Bot",
+    "slug":"jarvis-bot",
+    "date": "May 2025 – May 2025",
+    "stack": "Python · Discord API · OpenAI API",
+    "status": "complete",
+    "github_link": "https://github.com/KyleeMBrown/DiscordBot",
+    "link": "https://discord.com/oauth2/authorize?client_id=1353878573861179402&permissions=1689934340028480&integration_type=0&scope=bot",
+    "linkTitle": "Demo",
+    "description": "A Python-powered Discord bot integrating AI capabilities into Discord communities, providing interactive assistance through the Discord API and OpenAI API."
+  }
+]
