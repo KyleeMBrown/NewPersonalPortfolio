@@ -1,38 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kylee Brown | Software Engineer
 
-## Getting Started
+Welcome to my portfolio! I'm a software engineer passionate about building modern, scalable web applications and solving real-world problems through technology.
 
-First, run the development server:
+## 🛠️ Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Languages:** TypeScript, JavaScript, Python, Java, C++, SQL
+- **Frameworks & Libraries:** Next.js, React, Tailwind CSS, shadcn/ui
+- **Databases & Cloud:** PostgreSQL, Supabase, Vercel, AWS
+- **Tools & APIs:** Git, GitHub, VS Code, Postman, REST APIs
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Featured Projects
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# NewPersonalPortfolio
-# NewPersonalPortfolio
+### [KB's Kustomz V2](https://github.com/KyleeMBrown/KBsKustomz_NewSite)
+Production-ready auto body shop website and custom CMS built with Next.js, Supabase, and Vercel.
+### [Discord AI Bot](https://github.com/KyleeMBrown/DiscordBot)
+A Python-powered Discord bot integrating the OpenAI API to deliver AI-driven interactions within Discord communities. Built with Python and deployed on cloud hosting infrastructure.
