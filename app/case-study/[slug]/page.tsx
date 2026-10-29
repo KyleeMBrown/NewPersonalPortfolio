@@ -47,32 +47,11 @@ export async function generateMetadata({
         };
     }
 
-const page = async({params}: PageProps) => {
-
-    const { slug } = await params
-    const study = caseStudies[slug as keyof typeof caseStudies];
-
-    const studySchema = {
-        "@context": "https://schema.org",
-        "@type": "CreativeWork",
-        name: study.title,
-        description: study.description,
-        author: {
-            "@type": "Person",
-            name: "Kylee Brown",
-            url: "https://yourdomain.com",
-        },
-        url: `https://yourdomain.com/projects/${slug}`,
-    };
+const page = ({params}: PageProps) => {
 
     return (
         <>
-        <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-        __html: JSON.stringify(studySchema).replace(/</g, "\u003c"),
-        }}
-        />
+        
             <Suspense fallback={<div className="w-full h-[91.5vh] flex items-center justify-center text-black uppercase"><Spinner /></div>}>
                 <CaseStudyPage params={params} />
             </Suspense>

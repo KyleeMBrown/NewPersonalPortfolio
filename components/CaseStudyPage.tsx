@@ -15,8 +15,30 @@ const CaseStudyPage = async ({ params }: PageProps) => {
     const { slug } = await params
     const study = caseStudies[slug as keyof typeof caseStudies];
 
-  return (
+    const studySchema = {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        name: study.title,
+        description: study.description,
+        author: {
+            "@type": "Person",
+            name: "Kylee Brown",
+            url: "https://yourdomain.com",
+        },
+        url: `https://yourdomain.com/projects/${slug}`,
+    };
+
+
+    return (
+      <>
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+        __html: JSON.stringify(studySchema).replace(/</g, "\u003c"),
+        }}
+    />
       <div className="w-full h-auto ">
+        
           <Link href="/#work"><Button className="ml-5 mt-4"><ArrowLeft />Back</Button></Link>
           <div className="w-full p-10 max-[768px]:p-5">
               <div className="flex justify-between">
@@ -96,6 +118,7 @@ const CaseStudyPage = async ({ params }: PageProps) => {
               </div>
           </div>
     </div>
+    </>
   )
 }
 
