@@ -1,12 +1,12 @@
 # Kylee Brown | Software Engineer
 
-Welcome to my portfolio! I'm a software engineer passionate about building modern, scalable web applications and solving real-world problems through technology.
+Welcome to my portfolio! I'm a CS student and aspiring software engineer passionate about building modern, scalable web applications and solving real-world problems through technology.
 
 ## 🛠️ Tech Stack
 
 - **Languages:** TypeScript, JavaScript, Python, Java, C++, SQL
 - **Frameworks & Libraries:** Next.js, React, Tailwind CSS, shadcn/ui
-- **Databases & Cloud:** PostgreSQL, Supabase, Vercel, AWS
+- **Databases:** PostgreSQL, Supabase, Vercel
 - **Tools & APIs:** Git, GitHub, VS Code, Postman, REST APIs
 
 ## 🚀 Featured Projects
