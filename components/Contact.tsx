@@ -9,7 +9,7 @@ import { Badge } from "./ui/badge"
 const Contact = () => {
   return (
     <div className='w-full h-screen max-[768px]:h-full p-10 max-[768px]:p-8  max-[380px]:p-4 flex flex-col justify-center border-t'>
-        <h2 className="text-[3em] pl-10 pt-0 pb-0 max-[768px]:pl-0">Contact</h2>
+        <h2 className="text-[3em] pl-10 mt-[2em] max-[768px]:mt-0 pb-0 max-[768px]:pl-0">Contact</h2>
           <div className="p-10 flex gap-4 max-[768px]:p-0 max-[768px]:flex-col">
               <div className="w-[40%] p-10 pt-0 pl-0 max-[768px]:w-full max-[768px]:p-0">
                   <p className="max-[768px]:text-sm">Have a project in mind, an opportunity to discuss, or just want to connect?
