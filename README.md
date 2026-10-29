@@ -1,6 +1,6 @@
 # Kylee Brown | Software Engineer
 
-Welcome to my portfolio! I'm a software engineer passionate about building modern, scalable web applications and solving real-world problems through technology.
+Welcome to my portfolio! I'm a CS student and aspiring software engineer passionate about building modern, scalable web applications and solving real-world problems through technology.
 
 ## 🛠️ Tech Stack
 
