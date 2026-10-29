@@ -56,12 +56,12 @@ export default function Countdown() {
       {units.map(({ label, value }) => (
         <div
           key={label}
-          className="min-w-20 rounded-xl p-4 text-center"
+          className="min-w-20 rounded-xl p-4 max-[380px]:min-w-18 text-center"
         >
           <p className="text-[12px] font-bold tabular-nums">
             {String(value).padStart(2, "0")}
           </p>
-          <p className="text-[12px] text-muted-foreground">{label}</p>
+          <p className="text-[12px] max-[380px]:text-[10px] text-muted-foreground">{label}</p>
         </div>
       ))}
     </div>

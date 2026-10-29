@@ -26,13 +26,15 @@ export default function RootLayout({ children }:{children:ReactNode}) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth`}
     >
-      
-      <body className="min-h-full flex flex-col">
-        <Menu/>
+     
+      <body className="min-h-full flex flex-col">  
+          <Menu/>
         {children}
+        <footer>
         <Footer />
-        
-      </body>
+        </footer>
+        </body>
+      
     </html>
   );
 }

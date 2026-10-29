@@ -57,7 +57,7 @@
   },
   "jarvis-bot": {
     "title": "Jarvis Bot",
-    "description": "A Python-powered Discord bot that integrates the OpenAI API to bring AI-driven conversational capabilities into a Discord server. The project explores API integration, event-driven bot development, and deploying a persistent application to a cloud-hosted environment.",
+    "description": "A Python-powered Discord bot that integrates the Google GenAI API to bring AI-driven conversational capabilities into a Discord server. The project explores API integration, event-driven bot development, and deploying a persistent application to a cloud-hosted environment.",
     "role": "Software Developer",
     "date": "May 2025 – May 2025",
     "status": "Live",
@@ -69,7 +69,7 @@
       "FadeHost Hosting"
     ],
     "problem": "Discord communities can benefit from an interactive assistant that responds to messages and provides AI-generated conversational support directly within their server.",
-    "solution": "Developed a Discord bot in Python that connects to the OpenAI API, processes user interactions, and returns generated responses through Discord. The Bot is hosted on a dedicated server via FadeHost.",
+    "solution": "Developed a Discord bot in Python that connects to the Goggle GenAI API, processes user interactions, and returns generated responses through Discord. The Bot is hosted on a cloud server via FadeHost.",
     "keyFeatures": [
       "Discord bot integration",
       "AI-generated conversational responses",
@@ -85,7 +85,7 @@
       },
       {
         "title": "Application hosting",
-        "description": "Explored cloud hosting options to run the bot persistently beyond a local machine, including troubleshooting hosting availability. However, deployment constraints I ultimately decided on Fadehost."
+        "description": "Explored cloud hosting options to run the bot persistently beyond a local machine, including troubleshooting hosting availability."
       },
       {
         "title": "Managing external dependencies",
@@ -95,7 +95,7 @@
     "outcomes": [
       "Built a working project integrating Python, Discord, and generative AI.",
       "Gained practical experience with API-driven application architecture.",
-      "Explored deployment and hosting considerations for long-running applications."
+      "Explored deployment and cloud hosting options for long-running applications."
     ],
     "lessonsLearned": [
       "Integrating external APIs into an application workflow",

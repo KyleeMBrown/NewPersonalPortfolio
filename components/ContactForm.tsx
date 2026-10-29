@@ -131,6 +131,7 @@ export default function ContactForm() {
             setValue("h-captcha-response", "", {
               shouldValidate: true,
             })
+            
           }
         /></center>
 
