@@ -40,7 +40,7 @@ const About = () => {
                         <p className="text-md text-black">Future Aspirations</p>
                         <CardDescription className="text-sm">Bioinformatics</CardDescription>
                       </div>
-                      <Badge className="bg-white! text-black text-sm"> <span className="ml-px mr-1 size-1.5 rounded-full bg-green-500 animate-[pulse_1s_ease-in-out_infinite] shadow-[0_0_8px_3px_rgba(34,197,94,0.65)]" />Open To Work</Badge>
+                      <Badge className="bg-white! text-black text-sm"> <span className="ml-px mr-1 size-1.5 rounded-full bg-green-500 animate-[pulse_1s_ease-in-out_infinite] shadow-[0_0_8px_3px_rgba(34,197,94,0.65)]" />Open To Relocation</Badge>
                 </div>
               </div>
           </div>
