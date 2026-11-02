@@ -27,6 +27,10 @@ export const metadata: Metadata = {
     template: "%s | Kylee Brown",
   },
 
+  alternates: {
+    canonical: "/",
+  },
+  
   description:
     "Kylee Brown is a software engineer specializing in TypeScript, JavaScript, React, and Next.js. Explore software projects, full-stack applications, and experience building modern, scalable web solutions.",
 
