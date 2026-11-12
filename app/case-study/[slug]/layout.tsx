@@ -3,8 +3,11 @@ import { ReactNode } from "react";
 
 
 export const metadata: Metadata = {
-  title: "",
-  description: "",
+  title: "Case Studies | Kylee Brown",
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }:{children:ReactNode}) {
