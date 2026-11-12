@@ -11,13 +11,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/projects/kbs-kustomz`,
+      url: `${baseUrl}/case-study/kbs-kustomz`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/projects/jarvis-bot`,
+      url: `${baseUrl}/case-study/jarvis-bot`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
